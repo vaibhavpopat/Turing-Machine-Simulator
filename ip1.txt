@@ -1,0 +1,23 @@
+6
+q0
+1
+q5
+q0 a X q1 r
+q1 a a q1 r
+q1 Y Y q1 r
+q1 b Y q2 r
+q2 b b q2 r
+q2 Z Z q2 r
+q2 c Z q3 l
+q3 b b q3 l
+q3 Y Y q3 l
+q3 a a q3 l
+q3 Z Z q3 l
+q3 X X q0 r
+q0 Y Y q4 r
+q4 Y Y q4 r
+q4 Z Z q5 r
+q5 Z Z q5 r
+q5 0 0 q6 r
+$
+aabbcc

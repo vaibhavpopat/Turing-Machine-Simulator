@@ -1,0 +1,88 @@
+Tape initialy: 
+Char  Position
+ a      500000
+ b      500001
+ a      500002
+ a      500003
+ b      500004
+ c      500005
+ a      500006
+ b      500007
+ a      500008
+ a      500009
+ b      500010
+Tape
+0 0 0 0 0 a b a a b c a b a a b 0 0 0 0 0 . . . . . 	500000
+0 0 0 0 0 x b a a b c a b a a b 0 0 0 0 0 . . . . . 	500001
+0 0 0 0 0 x b a a b c a b a a b 0 0 0 0 0 . . . . . 	500002
+0 0 0 0 0 x b a a b c a b a a b 0 0 0 0 0 . . . . . 	500003
+0 0 0 0 0 x b a a b c a b a a b 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x b a a b c a b a a b 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x b a a b c a b a a b 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x b a a b c x b a a b 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x b a a b c x b a a b 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x b a a b c x b a a b 0 0 0 0 0 . . . . . 	500003
+0 0 0 0 0 x b a a b c x b a a b 0 0 0 0 0 . . . . . 	500002
+0 0 0 0 0 x b a a b c x b a a b 0 0 0 0 0 . . . . . 	500001
+0 0 0 0 0 x b a a b c x b a a b 0 0 0 0 0 . . . . . 	500000
+0 0 0 0 0 x b a a b c x b a a b 0 0 0 0 0 . . . . . 	500001
+0 0 0 0 0 x y a a b c x b a a b 0 0 0 0 0 . . . . . 	500002
+0 0 0 0 0 x y a a b c x b a a b 0 0 0 0 0 . . . . . 	500003
+0 0 0 0 0 x y a a b c x b a a b 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x y a a b c x b a a b 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x y a a b c x b a a b 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x y a a b c x b a a b 0 0 0 0 0 . . . . . 	500007
+0 0 0 0 0 x y a a b c x y a a b 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x y a a b c x y a a b 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x y a a b c x y a a b 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x y a a b c x y a a b 0 0 0 0 0 . . . . . 	500003
+0 0 0 0 0 x y a a b c x y a a b 0 0 0 0 0 . . . . . 	500002
+0 0 0 0 0 x y a a b c x y a a b 0 0 0 0 0 . . . . . 	500001
+0 0 0 0 0 x y a a b c x y a a b 0 0 0 0 0 . . . . . 	500002
+0 0 0 0 0 x y x a b c x y a a b 0 0 0 0 0 . . . . . 	500003
+0 0 0 0 0 x y x a b c x y a a b 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x y x a b c x y a a b 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x y x a b c x y a a b 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x y x a b c x y a a b 0 0 0 0 0 . . . . . 	500007
+0 0 0 0 0 x y x a b c x y a a b 0 0 0 0 0 . . . . . 	500008
+0 0 0 0 0 x y x a b c x y x a b 0 0 0 0 0 . . . . . 	500007
+0 0 0 0 0 x y x a b c x y x a b 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x y x a b c x y x a b 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x y x a b c x y x a b 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x y x a b c x y x a b 0 0 0 0 0 . . . . . 	500003
+0 0 0 0 0 x y x a b c x y x a b 0 0 0 0 0 . . . . . 	500002
+0 0 0 0 0 x y x a b c x y x a b 0 0 0 0 0 . . . . . 	500003
+0 0 0 0 0 x y x x b c x y x a b 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x y x x b c x y x a b 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x y x x b c x y x a b 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x y x x b c x y x a b 0 0 0 0 0 . . . . . 	500007
+0 0 0 0 0 x y x x b c x y x a b 0 0 0 0 0 . . . . . 	500008
+0 0 0 0 0 x y x x b c x y x a b 0 0 0 0 0 . . . . . 	500009
+0 0 0 0 0 x y x x b c x y x x b 0 0 0 0 0 . . . . . 	500008
+0 0 0 0 0 x y x x b c x y x x b 0 0 0 0 0 . . . . . 	500007
+0 0 0 0 0 x y x x b c x y x x b 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x y x x b c x y x x b 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x y x x b c x y x x b 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x y x x b c x y x x b 0 0 0 0 0 . . . . . 	500003
+0 0 0 0 0 x y x x b c x y x x b 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x y x x y c x y x x b 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x y x x y c x y x x b 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x y x x y c x y x x b 0 0 0 0 0 . . . . . 	500007
+0 0 0 0 0 x y x x y c x y x x b 0 0 0 0 0 . . . . . 	500008
+0 0 0 0 0 x y x x y c x y x x b 0 0 0 0 0 . . . . . 	500009
+0 0 0 0 0 x y x x y c x y x x b 0 0 0 0 0 . . . . . 	500010
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500009
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500008
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500007
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500004
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500005
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500006
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500007
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500008
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500009
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500010
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500011
+0 0 0 0 0 x y x x y c x y x x y 0 0 0 0 0 . . . . . 	500010
+String accepted by Turing machine.

@@ -1,0 +1,36 @@
+11
+q0
+1
+q10
+q0 a x q1 r
+q1 b b q1 r
+q1 a a q1 r
+q1 c c q2 r
+q2 x x q2 r
+q2 y y q2 r
+q2 a x q3 l
+q3 x x q3 l
+q3 y y q3 l
+q3 c c q4 l
+q4 b b q4 l
+q4 a a q4 l
+q4 x x q0 r
+q0 b y q5 r
+q5 a a q5 r
+q5 b b q5 r
+q5 c c q6 r
+q6 x x q6 r
+q6 y y q6 r
+q6 b y q7 l
+q7 x x q7 l
+q7 y y q7 l
+q7 c c q8 l
+q8 a a q8 l
+q8 b b q8 l
+q8 y y q0 r
+q0 c c q9 r
+q9 x x q9 r
+q9 y y q9 r
+q9 0 0 q10 r
+$
+abaabcabaab
